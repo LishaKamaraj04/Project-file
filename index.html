@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RESPONSIVE KVSL CAKE WORLD </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+
+   <!-- header section-->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> KVSL CAKE WORLD </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#shop">shop</a>
+            <a href="#about">about</a>
+            <a href="#review">review</a>
+            <a href="#blog">blog</a>
+            <a href="#contact">contact</a>
+            <a href="#order">order</a>
+        </nav>
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="cart-btn" class="fas fa-shopping-cart"></div>
+          <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </header>
+
+
+    <section class="home" id="home">
+      <div class="slides-container">
+        <div class="slide active">
+          <div class="content">
+            <span> A ready-to-eat slice of heaven </span>
+            <h3>Upto 50% OFF on your first buy....</h3>
+            <a href="#" class="btn">BUY NOW...</a>
+          </div>
+          <div class="img">
+            <img src="Images/lis1.png" alt="">
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="content">
+            <span> A life without dreams is like a cupcake without sprinkles. </span>
+            <h3>Upto 35% OFF on your first buy....</h3>
+            <a href="#" class="btn">BUY NOW...</a>
+          </div>
+          <div class="img">
+            <img src="Images/lis4.png" alt="">
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="content">
+            <span> “For goodness sake, look at those piece of cakes.” </span>
+            <h3>Upto 40% OFF on your first buy....</h3>
+            <a href="#" class="btn">BUY NOW...</a>
+          </div>
+          <div class="img">
+            <img src="Images/lis7.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+      <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+    </section>
+
+    <section class="banner-container">
+
+      <div class="banner">
+        <img src="Images/banner1.png" alt="">
+        <div class="content">
+        <span>Limited Offer</span>
+        <h3>Upto 50% OFF</h3>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      </div>
+   
+
+      <div class="banner">
+        <img src="Images/banner5.png" alt="">
+        <div class="content">
+        <span>Limited Offer</span>
+        <h3>Upto 50% OFF</h3>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      </div>
+
+      <div class="banner">
+        <img src="Images/banner6.png" alt="">
+        <div class="content">
+        <span>Limited Offer</span>
+        <h3>Upto 50% OFF</h3>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      </div>
+    </section>
+     
+    <div id="shop" class="heading">
+      <h1> KVSL cake world </h1>
+      <p><a href="home.html"> home >></a> shop </p>
+
+    </div>
+    <section id="shop" class="category">
+       <h1 class="title">Special <span> Categories </span> <a href="#"> view all >> </a> </h1>
+       <div class="box-container">
+      
+        <a href="#" class="box">
+          <img src="Images/cupcake.png" alt="">
+          <h3>Fresh Cupcake</h3>
+        </a>
+
+        <a href="#" class="box">
+          <img src="Images/cookies.png" alt="">
+          <h3>Crunchy Cookies</h3>
+        </a>
+
+        <a href="#" class="box">
+          <img src="Images/brown bread.png" alt="">
+          <h3>Sponge bread</h3>
+        </a>
+
+        <a href="#" class="box">
+          <img src="Images/dark chocolate.png" alt="">
+          <h3>Delicious Chocolates</h3>
+        </a>
+
+       </div>
+    </section>
+
+    <!-- products section -->
+
+    <section class="products">
+       <h1 class="title">Our <span> Exclusive Products </span> <a href="#"> view all >> </a> </h1>
+       <div class="box-container">
+         <div class="box">
+           <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+           </div>
+           <div class="img">
+            <img src="Images/k1.png" alt="">
+           </div>
+           <div class="content">
+            <h3>Tasteful Fruit Cake</h3>
+            <div class="price">Rs.750</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i><span> 11k Ratings</span>
+            </div>
+           </div>
+          </div>
+
+          <div class="box">
+            <div class="icons">
+             <a href="#" class="fas fa-shopping-cart"></a>
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+             <img src="Images/k2.png" alt="">
+            </div>
+            <div class="content">
+             <h3>Creamy Cheese Cake</h3>
+             <div class="price">Rs.999</div>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i> <span>35k Ratings</span>
+             </div>
+            </div>
+           </div>
+
+           <div class="box">
+            <div class="icons">
+             <a href="#" class="fas fa-shopping-cart"></a>
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+             <img src="Images/k3.png" alt="">
+            </div>
+            <div class="content">
+             <h3>Luscious Blueberry Cake</h3>
+             <div class="price">Rs.800</div>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i><span> 68k Ratings</span>
+             </div>
+            </div>
+           </div>
+
+           <div class="box">
+            <div class="icons">
+             <a href="#" class="fas fa-shopping-cart"></a>
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+             <img src="Images/k4.png" alt="">
+            </div>
+            <div class="content">
+             <h3>Classy Cinnamon Coffee Cake</h3>
+             <div class="price">Rs.899</div>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i><span> 53k Ratings</span>
+             </div>
+            </div>
+           </div>
+
+           <div class="box">
+            <div class="icons">
+             <a href="#" class="fas fa-shopping-cart"></a>
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+             <img src="Images/k5.png" alt="">
+            </div>
+            <div class="content">
+             <h3>Thick and whipped caramel cake</h3>
+             <div class="price">Rs.950</div>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="far fa-star"></i>
+               <i class="far fa-star"></i> <span>7k Ratings</span>
+             </div>
+            </div>
+           </div>
+
+           <div class="box">
+            <div class="icons">
+             <a href="#" class="fas fa-shopping-cart"></a>
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+             <img src="Images/k6.png" alt="">
+            </div>
+            <div class="content">
+             <h3>Yummy Ferrero rocher cake</h3>
+             <div class="price">Rs.1499</div>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i> <span>72k Ratings</span>
+             </div>
+            </div>
+           </div>
+
+           <div class="box">
+            <div class="icons">
+             <a href="#" class="fas fa-shopping-cart"></a>
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+             <img src="Images/k7.png" alt="">
+            </div>
+            <div class="content">
+             <h3>Delicious Mango Pudding</h3>
+             <div class="price">Rs.650</div>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="far fa-star"></i> <span> 12k Ratings</span>
+             </div>
+            </div>
+           </div>
+
+           <div class="box">
+            <div class="icons">
+             <a href="#" class="fas fa-shopping-cart"></a>
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+             <img src="Images/cake2.png" alt="">
+            </div>
+            <div class="content">
+             <h3>Strawberry Cream Cheese Frosting</h3>
+             <div class="price">Rs.1299</div>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="far fa-star"></i> <span> 24k Ratings</span>
+             </div>
+            </div>
+          </div>    
+       </div>
+      </section>
+
+<!-- About section-->
+<div id="about" class="heading">
+  <h1>About Us</h1>
+ </div>
+   <section id="about" class="about">
+     <div class="img">
+      <img src="Images/back.png" alt="">
+     </div>
+     <div class="content">
+      <span>Welcome to our KVSL world</span>
+      <h3>Cake-A-Licious products</h3>
+      <p>The ‘KVSL cake world’ Bakery is an Indian-style pastry kitchen established in 2004 to bring the bona fide taste of Indian home heating to customers. The organization opened its first branch on Kamaraj Road in Notting Hill in 2007 and has since propelled a further six branches crosswise over bengaluru, Ahmedabad, Goa, Gujarat, Tamilnadu, Kerala.
+        It additionally has an establishment nearness in the Middle East with four branches effectively working effectively with further dispatches arranged.</p>
+        <a href="#" class="btn">read more</a>
+     </div>
+   </section>
+
+   <!-- Gallery section -->
+
+   <section class="gallery">
+     <h1 class="title">Our <span> gallery </span> <a href="#"> view all >> </a> </h1>
+     <div class="box-container">
+      <div class="box">
+        <img src="Images/b1.png" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-eye"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share-alt"></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="Images/b2.png" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-eye"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share-alt"></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="Images/b3.png" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-eye"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share-alt"></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="Images/b4.png" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-eye"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share-alt"></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="Images/b5.png" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-eye"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share-alt"></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="Images/b6.png" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-eye"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share-alt"></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="Images/b7.png" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-eye"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share-alt"></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="Images/b8.png" alt="">
+        <div class="icons">
+          <a href="#" class="fas fa-eye"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-share-alt"></a>
+        </div>
+      </div>
+     </div>
+   </section>
+
+   <div id="review" class="heading">
+    <h1>client's review</h1>
+   </div>
+   <section class="info-container">
+
+    <div class="info">
+      <img src="Images/fa1.png" alt="">
+      <div class="content">
+        <h3>Fast delivery</h3>
+        <span>within 30 minutes</span>
+      </div>
+    </div>
+
+
+    <div class="info">
+      <img src="Images/fa2.png" alt="">
+      <div class="content">
+        <h3>24 / 7 available</h3>
+        <span>call us anytime</span>
+      </div>
+    </div>
+
+
+    <div class="info">
+      <img src="Images/fa3.png" alt="">
+      <div class="content">
+        <h3>easy payment</h3>
+        <span>cash or credit</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Review Section -->
+
+   <section id="review" class="review">
+    <div class="box">
+      <div class="user">
+        <img src="Images/pe2.png" alt="">
+        <div class="info">
+          <h3>Rock Bison</h3>
+          <span>happy client</span>
+        </div>
+      </div>
+      <p>I got my wedding cake from KVSL Cake world and it was absolutely amazing. The tasting was so delicious and they let you choose flavor combinations which was so fun. They are so kind and helpful and made the entire process so smooth and easy. The cake looked and tasted beautiful and I will absolutely be using them for many events to come! Highly Recommend!</p>
+    </div>
+
+    <div class="box">
+      <div class="user">
+        <img src="Images/per1.png" alt="">
+        <div class="info">
+          <h3>Priyanka</h3>
+          <span>happy client</span>
+        </div>
+      </div>
+      <p>I got my wedding cake from KVSL Cake world and it was absolutely amazing. The tasting was so delicious and they let you choose flavor combinations which was so fun. They are so kind and helpful and made the entire process so smooth and easy. The cake looked and tasted beautiful and I will absolutely be using them for many events to come! Highly Recommend!</p>
+    </div>
+
+    <div class="box">
+      <div class="user">
+        <img src="Images/per2.png" alt="">
+        <div class="info">
+          <h3>Daisy</h3>
+          <span>happy client</span>
+        </div>
+      </div>
+      <p>I got my wedding cake from KVSL Cake world and it was absolutely amazing. The tasting was so delicious and they let you choose flavor combinations which was so fun. They are so kind and helpful and made the entire process so smooth and easy. The cake looked and tasted beautiful and I will absolutely be using them for many events to come! Highly Recommend!</p>
+    </div>
+
+    <div class="box">
+      <div class="user">
+        <img src="Images/per3.png" alt="">
+        <div class="info">
+          <h3>Fallon Rock</h3>
+          <span>happy client</span>
+        </div>
+      </div>
+      <p>I got my wedding cake from KVSL Cake world and it was absolutely amazing. The tasting was so delicious and they let you choose flavor combinations which was so fun. They are so kind and helpful and made the entire process so smooth and easy. The cake looked and tasted beautiful and I will absolutely be using them for many events to come! Highly Recommend!</p>
+    </div>
+
+    <div class="box">
+      <div class="user">
+        <img src="Images/per4.png" alt="">
+        <div class="info">
+          <h3>Jackson</h3>
+          <span>happy client</span>
+        </div>
+      </div>
+      <p>I got my wedding cake from KVSL Cake world and it was absolutely amazing. The tasting was so delicious and they let you choose flavor combinations which was so fun. They are so kind and helpful and made the entire process so smooth and easy. The cake looked and tasted beautiful and I will absolutely be using them for many events to come! Highly Recommend!</p>
+    </div>
+
+    <div class="box">
+      <div class="user">
+        <img src="Images/per5.png" alt="">
+        <div class="info">
+          <h3>Christy</h3>
+          <span>happy client</span>
+        </div>
+      </div>
+      <p>I got my wedding cake from KVSL Cake world and it was absolutely amazing. The tasting was so delicious and they let you choose flavor combinations which was so fun. They are so kind and helpful and made the entire process so smooth and easy. The cake looked and tasted beautiful and I will absolutely be using them for many events to come! Highly Recommend!</p>
+    </div>
+   </section>
+
+   <!-- blog section -->
+
+   <div id="blog" class="heading">
+    <h1>our blogs</h1>
+   </div>
+   <section id="blog" class="blogs">
+    <h1 class="title"> Our <span> blogs </span> <a href="#"> view all >> </a> </h1>
+    <div class="box-container">
+
+      <div class="box">
+        <div class="img">
+          <img src="Images/blog1.png" alt="">
+        </div>
+        <div class="content">
+        <div class="icons">
+          <a href="#"> <i class="fsa fa-calender"></i> 15 july, 2023 </a>
+          <a href="#"> <i class="fsa fa-user"></i> by administrator </a>
+        </div>
+        <h3> Rolls </h3>
+        <p>We provide Delicious Cakes & Desserts for Any Occassion</p>
+        <a href="#" class="btn">read more...</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="img">
+        <img src="Images/blog4.png" alt="">
+      </div>
+      <div class="content">
+      <div class="icons">
+        <a href="#"> <i class="fsa fa-calender"></i> 15 july, 2023 </a>
+        <a href="#"> <i class="fsa fa-user"></i> by administrator </a>
+      </div>
+      <h3> Chocolate Cake </h3>
+      <p>We provide Delicious Cakes & Desserts for Any Occassion</p>
+      <a href="#" class="btn">read more...</a>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="img">
+      <img src="Images/blog2.png" alt="">
+    </div>
+    <div class="content">
+    <div class="icons">
+      <a href="#"> <i class="fsa fa-calender"></i> 15 july, 2023 </a>
+      <a href="#"> <i class="fsa fa-user"></i> by administrator </a>
+    </div>
+    <h3> Biscuit & Cookies </h3>
+    <p>We provide Delicious Cakes & Desserts for Any Occassion</p>
+    <a href="#" class="btn">read more...</a>
+  </div>
+</div>
+
+<div class="box">
+  <div class="img">
+    <img src="Images/blog-img1.png" alt="">
+  </div>
+  <div class="content">
+  <div class="icons">
+    <a href="#"> <i class="fsa fa-calender"></i> 15 july, 2023 </a>
+    <a href="#"> <i class="fsa fa-user"></i> by administrator </a>
+  </div>
+  <h3> Cupcakes </h3>
+  <p>We provide Delicious Cakes & Desserts for Any Occassion</p>
+  <a href="#" class="btn">read more...</a>
+</div>
+</div>
+
+<div class="box">
+  <div class="img">
+    <img src="Images/cake1.png" alt="">
+  </div>
+  <div class="content">
+  <div class="icons">
+    <a href="#"> <i class="fsa fa-calender"></i> 15 july, 2023 </a>
+    <a href="#"> <i class="fsa fa-user"></i> by administrator </a>
+  </div>
+  <h3> Pastries </h3>
+  <p>We provide Delicious Cakes & Desserts for Any Occassion</p>
+  <a href="#" class="btn">read more...</a>
+</div>
+</div>
+
+<div class="box">
+  <div class="img">
+    <img src="Images/blog6.png" alt="">
+  </div>
+  <div class="content">
+  <div class="icons">
+    <a href="#"> <i class="fsa fa-calender"></i> 15 july, 2023 </a>
+    <a href="#"> <i class="fsa fa-user"></i> by administrator </a>
+  </div>
+  <h3> chocolate truffle & cherries </h3>
+  <p>We provide Delicious Cakes & Desserts for Any Occassion</p>
+  <a href="#" class="btn">read more...</a>
+</div>
+</div>
+  </div>
+   </section>
+
+   <!-- contact section-->
+
+   <div id="contact" class="heading">
+    <h1>Contact Us</h1>
+   </div>
+
+   <section id="contact" class="contact">
+    <div class="icons-container">
+
+      <div class="icons">
+        <i class="fas fa-phone"></i>
+        <h3>our number</h3>
+        <p>9111100004</p>
+        <p>9322143567</p>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-envelope"></i>
+        <h3>our email</h3>
+        <p>lishakamaraj04@gmail.com</p>
+        <p>abcdef@gmail.com</p>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>our address</h3>
+        <p>Mumbai, India-400037</p>
+      </div>
+</div>
+
+<div class="space"></div>
+<!-- place your order -->
+
+<div id="order" class="heading">
+  <h1>Place your order</h1>
+ </div>
+
+ <section id="order" class="order">
+  <h1 class="title"> Place <span> Your Order </span></h1>
+  
+  <div id="order" class="box-container">
+  <form action="connect.php" method="post">
+    
+    <div class="form-group">
+    <label for="Name">Customer Name</label>
+    <input type="text" id="Name" name="name" placeholder="Enter your name">
+   </div>
+
+    <div class="form-group">
+    <label for="Email">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="Enter Your email">
+  </div>
+
+    <div class="form-group">
+    <label for="address">Address</label>
+    <textarea id="address" name="address" placeholder="Enter your address" style="height:200px"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="">Phone</label>
+      <input type="text" class="form-control" name="phoneno" placeholder="Enter your phone no">
+  </div>
+
+  <div class="form-group">
+    <label for="date">Date</label>
+    <input type="date" class="form-control" name="date" placeholder="mm-dd-yyyy" value="" min="1997-01-01" max="2030-12-31">
+</div>
+
+<div class="form-group">
+  <label for="flavour">Choose your Cake Flavour</label>
+  <div class="select-wrap one-third">
+      <div class="icon"><span class="ios-ios-arrow-down"></span></div>
+      <select id="flavour" name="flavour" class="form-control">
+          <option value="1">Black Forest</option>
+          <option value="2">Cheese Cakes</option>
+          <option value="3">Pound Cakes</option>
+          <option value="4">Red Velvet Cakes</option>
+          <option value="5">Fruits Cakes</option>
+          <option value="6">Sponge Cake</option>
+          <option value="7">Cake pudding</option>
+          <option value="8">Cinnamon coffee Cakes</option>
+      </select>
+  </div>
+
+</div>
+
+<div class="form-group">
+  <label for="quantity">Quantity</label>
+  <div class="select-wrap one-third">
+      <div class="icon"><span class="ios-ios-arrow-down"></span></div>
+      <select name="quantity" id="" class="form-control">
+          <option value="1">0.5kg</option>
+          <option value="2">1kg</option>
+          <option value="3">1.5kg</option>
+          <option value="4">2.5kg</option>
+          <option value="5">5kg</option>
+          <option value="6">10kg</option>
+          <option value="7">Custom</option>
+      </select>
+  </div>
+</div>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</section>
+
+
+<div class="space"></div>
+<!-- footer -->
+<section class="footer">
+  <div class="box-container">
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#home"><i class="fas fa-arrow-right"></i>home</a>
+      <a href="#shop"><i class="fas fa-arrow-right"></i>shop</a>
+      <a href="#about"><i class="fas fa-arrow-right"></i>about</a>
+      <a href="#review"><i class="fas fa-arrow-right"></i>review</a>
+      <a href="#blog"><i class="fas fa-arrow-right"></i>blog</a>
+      <a href="#contact"><i class="fas fa-arrow-right"></i>contact</a>
+      <a href="#order"><i class="fas fa-arrow-right"></i>order</a>
+    </div>
+    <div class="box">
+      <h3>newsletter</h3>
+      <p>subscribe for latest update</p>
+      <p>Terms & conditions are applied</p>
+    </div>
+  </div>
+</section>
+
+<section class="credit"> Design By &copy; KVSL cake world || all rights reserved </section>
+
+
+  <!-- js link -->  
+<script src="main.js"> </script>
+</body> 
+
+</html>
